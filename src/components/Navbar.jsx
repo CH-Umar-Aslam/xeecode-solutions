@@ -110,8 +110,8 @@ export default function Navbar() {
           href="#"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span className="self-center font-Playball font-thin text-3xl whitespace-nowrap text-primary">
-            Xeecode Solutions
+          <span className="self-center md:w-36 w-28  font-Mon font-thin text-3xl whitespace-nowrap text-primary">
+           <img src="/assets/LOGO.svg" />
           </span>
         </Link>
         <div className="hidden lg:flex items-center justify-center flex-grow space-x-8">
@@ -428,7 +428,7 @@ export default function Navbar() {
                 scrollTo("hero-section");
               }}
               href="#"
-              className="text-2xl font-Playball font-thin text-textSecondary "
+              className="text-2xl font-Mon font-thin text-textSecondary "
             >
               Xeecode Solutions
             </Link>

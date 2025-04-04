@@ -12,8 +12,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Playball: "Playball",
-        Poppins: "Poppins",
+      Roboto:"'Roboto', 'sans-serif'",
+      Montserrat:"'Montserrat', 'sans-serif'"
       },
       colors: {
         primary: "#22bab3",         // teal or aqua for headings
