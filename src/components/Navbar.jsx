@@ -11,7 +11,7 @@ import {
   FaBullhorn,
   FaChartLine,
   FaChevronDown,
-} from "react-icons/fa"; // Adding appropriate icons
+} from "react-icons/fa"; 
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
